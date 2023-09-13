@@ -1,17 +1,19 @@
 {
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "tsconfig": "workspace:*",
+    "tsconfig": "*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "fe-interview-questions"
+  "name": "fe-interview-questions",
+  "packageManager": "yarn@1.22.11",
+  "workspaces": [
+    "packages/*",
+    "exams/*"
+  ]
 }

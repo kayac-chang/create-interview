@@ -1,0 +1,19 @@
+{
+  "name": "dfs",
+  "version": "0.1.0",
+  "author": "kayac-chang <egg734631@gmail.com>",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "prettier": "^2.8.4",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.4"
+  },
+  "engines": {
+    "node": ">=14.16"
+  }
+}
