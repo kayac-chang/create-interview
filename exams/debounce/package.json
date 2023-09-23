@@ -1,19 +1,21 @@
 {
-  "name": "debounce",
-  "version": "0.1.0",
-  "author": "kayac-chang <egg734631@gmail.com>",
-  "license": "MIT",
-  "sideEffects": false,
+  "name": "dfs",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
+  "prettier": {},
+  "eslintIgnore": [
+    "/node_modules",
+    "/public"
+  ],
   "devDependencies": {
-    "eslint": "^8.34.0",
-    "prettier": "^2.8.4",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
     "vite": "^4.4.9",
-    "vitest": "^0.34.4"
-  },
-  "engines": {
-    "node": ">=14.16"
+    "vitest": "^0.34.5"
   }
 }

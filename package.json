@@ -1,19 +1,40 @@
 {
+  "name": "create-interview",
   "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "kayac-chang <egg734631@gmail.com> (https://github.com/kayac-chang)",
+  "files": [
+    "index.js",
+    "dist",
+    "exams"
+  ],
+  "bin": {
+    "create-interview": "index.js"
+  },
   "scripts": {
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
-    "prettier": "^3.0.3",
-    "tsconfig": "*",
-    "turbo": "latest"
+    "@types/minimist": "^1.2.2",
+    "@types/prompts": "^2.4.4",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "typescript": "^5.2.2",
+    "unbuild": "^2.0.0"
   },
-  "name": "fe-interview-questions",
-  "packageManager": "yarn@1.22.11",
-  "workspaces": [
-    "packages/*",
-    "exams/*"
-  ]
+  "volta": {
+    "node": "18.18.0"
+  },
+  "dependencies": {
+    "pipe-ts": "^0.0.9"
+  }
 }
