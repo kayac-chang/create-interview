@@ -1,7 +1,6 @@
 {
   "name": "create-interview",
-  "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "license": "MIT",
   "author": "kayac-chang <egg734631@gmail.com> (https://github.com/kayac-chang)",
