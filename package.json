@@ -1,6 +1,6 @@
 {
   "name": "create-interview",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "license": "MIT",
   "author": "kayac-chang <egg734631@gmail.com> (https://github.com/kayac-chang)",
@@ -35,5 +35,13 @@
   },
   "dependencies": {
     "pipe-ts": "^0.0.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kayac-chang/create-interview"
+  },
+  "bugs": {
+    "url": "https://github.com/kayac-chang/create-interview/issues"
+  },
+  "homepage": "https://github.com/kayac-chang/create-interview#readme"
 }
