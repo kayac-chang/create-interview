@@ -1,30 +1,21 @@
 # Create Interview
 
-## Using this example
+## How to use
 
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+npx create-interview@latest
 ```
 
 ## What's inside?
 
-This Turborepo includes the following packages/apps:
-
-### Apps and Packages
-
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
-
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+- `src`: cli source code to create interview exam
+- `exams`: list of exams for the interview
 
 ### Utilities
 
-This Turborepo has some additional tools already setup for you:
+This project has some additional tools already setup for you:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
@@ -35,8 +26,7 @@ This Turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-pnpm build
+yarn build
 ```
 
 ### Develop
@@ -44,6 +34,5 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-pnpm dev
+yarn dev
 ```
